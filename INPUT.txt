@@ -1,0 +1,21 @@
+#### ELECTRICAL PARAMETERS
+## Applied voltage (V):
+0.13
+## Total length (m):
+109.5e-9
+## Number of bins:
+110
+## Number of particles (total):
+99000
+## Heterobarrier on (1/0)?:
+1
+## Heterobarrier height (eV):
+0.090
+## Heterobarrier start position (m):
+83.0e-9
+## Heterobarrier end position (m):
+108.0e-9
+## Electron doping density (cm^-3):
+5.0e17
+## Temperature (K):
+350.0
