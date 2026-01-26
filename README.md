@@ -7,7 +7,9 @@ The MC simulation features include: scattering with phonons and impurties, spher
 
 ## Structure
 The simulation is initialized from _MonteCarlo.jl_, which calls the primary MC temporal loop in _MainLoops.jl_ (executes one timestep). Within that timestep, every particle is drifted and potentially scattered. At the end of the timestep, the Poisson equation is evaluated, and data is collected. This continues until the end of the simulation with the specified duration. The detailed algorthim, which follows a rather standard MC for ensemble electron transport, is illustrated in the flowchart below.
-<img src="https://github.com/lorfrances/GaNDiodeMC/images/flowchart.png" width="400">
+
+<img src="https://github.com/lorfrances/GaNDiodeMC/blob/main/images/flowchart.png" width="600">
+
 ## Usage
 At this time, a sample input file (INPUT.txt) has been included with a few customizable parameters. The program is run by executing _MonteCarlo.jl_ followed by a nescessary input file from the command line (not the Julia REPL).
 
