@@ -1,5 +1,5 @@
 # GaNDiodeMC
-The following Julia source code was developed for the ensemble Monte Carlo (MC) Boltzmann transport simulation of electrons in a GaN-based diode device. It can simulate a thin heterobarrier layer intended to absorb more phonons and increase the electron current. Results generated from this simulation have been included in the following manuscript:
+The following Julia source code was developed for the ensemble Monte Carlo (MC) Boltzmann transport simulation of electrons in a GaN-based diode device. It can simulate a thin heterobarrier layer intended to absorb more phonons and increase the electron current. Results generated from this simulation have been included in the following article:
 
 > Franceschetti, L., Kaviany, M., and Shin, S., “Heterobarrier _in-situ_ phonon recycling in semiconductor diodes,” **25**, 034063, 2026.
 
