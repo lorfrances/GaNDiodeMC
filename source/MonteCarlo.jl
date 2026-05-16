@@ -86,8 +86,8 @@ const m_ee0InN = 0.046
 const EgAlN = 6.30
 const Eg = 3.47
 const EgInN = 0.78
-const AlGaNPot = 0.75 #eV # for alloy scattering, assumed lower compared to DFT results due to low Al and In fraction. Increasing will limit the performance (at high bias, at least) due to significant scattering effect
-const InGaNPot = 0.00 #eV
+const AlGaNPot = 1.50 #eV # for alloy scattering rates. Note: AlGaN/InGaN system have heavy alloy scattering. Increasing the scattering potentials reduces the current gain at high bias
+const InGaNPot = 0.60 #eV
 
 #bandgap parameters
 const bAlGaN = 1.0
