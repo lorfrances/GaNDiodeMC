@@ -45,7 +45,7 @@ const BarHeightEnd = 0.0 # no potential gain
 const CLMSetting = 0 # barrier transition conserved lateral momentum mechanism (0 - full (lax), 1 - little more restrictive)
 # general calculation input
 const Dt = 0.75e-15
-const TotTime = 15.0e-9
+const TotTime = 2.0e-9
 const NumPar = round.(Int,InputData[4])
 const FreqWriteOut = 1200 # property write out frequnecy
 const PoiUpdateFreq = 2
