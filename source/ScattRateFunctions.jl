@@ -20,9 +20,9 @@ function AlloyRate(E_k, m_ee, Al_x, Al) # alloy attom scattering rate (only in A
     else
         Pot = InGaNPot
     end
-    DOS = (2^0.5*(m_ee*m0)^1.5 * E_k^0.5)/(pi^2*hbar^3)
+    DOS = ((m_ee*m0)^1.5 * E_k^0.5)/(2^0.5*pi^2*hbar^3)
     V0 = sqrt(3)*Lat_a^2*Lat_c/2
-    W_all = (3*pi^3/(8*hbar))* V0 * (Pot*e_c)^2 *DOS * Al_x * (1 - Al_x)
+    W_all = (2*pi/hbar)* V0 * (Pot*e_c)^2 *DOS * Al_x * (1 - Al_x)
     return W_all
 end
 
