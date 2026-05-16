@@ -14,7 +14,7 @@ function AcousticRate(E_k, m_ee) # aoustic phonon scattering rate
     return W_ac
 end
 
-function AlloyRate(E_k, m_ee, Al_x, Al) # alloy attom scattering rate (only in AlGaN)
+function AlloyRate(E_k, m_ee, Al_x, Al) # alloy attom scattering rate
     if Al == 1
         Pot = AlGaNPot
     else
